@@ -1,13 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 :root{
     --background:#ebebeb;
     --color:black;
     --width:100vw;
     --navbar-font:'Arvo', serif;;
     --background-2:#FDCD0B;
+    --heading:'Stylish', sans-serif;
+    --type:'Pacifico', cursive;
 }
 body{ 
     background-color: var(--background) !important;
     color: var(--color);
+}
+.header-title-card{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: var(--heading);
+    font-size: 52px;
+    background: -webkit-linear-gradient(var(--background-2), rgb(27, 27, 27));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 5px;
+
 }

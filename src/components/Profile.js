@@ -5,7 +5,7 @@ import './Profile.css'
 const Profile=(props)=> {
     return (
         <Container>
-            <Row className='profile-container'>
+            <Row className='profile-container' id="home">
                 <Col xs={11} sm={12} lg={6}>
                 <div className='wrapper'>
                     <div className='static-content'>

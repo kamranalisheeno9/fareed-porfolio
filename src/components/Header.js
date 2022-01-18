@@ -13,17 +13,17 @@ const Header = (props) => {
 
         <ul>
             <li>
-                <a>
+                <a href='#home'>
                     Home
                 </a>
             </li>
             <li>
-                <a>
+                <a href='#my-work'>
                     My Work
                 </a>
             </li>
             <li>
-                <a>
+                <a href='#contact'>
                     Contact
                 </a>
             </li>

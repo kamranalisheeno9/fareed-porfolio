@@ -1,6 +1,13 @@
+.header-li{
+    position: sticky !important;
+    top: 0;
+    z-index: 999;
+    background-color: var(--background);
+}
 .header-li ul {
     display: flex;
     justify-content: center;
+   
 }
 
 .header-li ul li {
