@@ -4,6 +4,7 @@
     z-index: 999;
     background-color: var(--background);
 }
+
 .header-li ul {
     display: flex;
     justify-content: center;
@@ -149,13 +150,15 @@
 }
 
 .menu-icon {
-    font-size: 24px;
+    font-size: 32px;
     cursor: pointer;
     font-weight: 600;
     font-family: var(--navbar-font);
     display: none;
     position: absolute;
     right: 0;
+    background-color: var(--background) !important;
+    padding: 4px;
 }
 
 @media screen and (max-width:750px) {

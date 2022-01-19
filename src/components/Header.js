@@ -28,7 +28,7 @@ const Header = (props) => {
                 </a>
             </li>
         </ul>
-        <AiOutlineMenu onClick={handleShow} className='menu-icon' />
+                   <AiOutlineMenu onClick={handleShow} className='menu-icon' />
         
 
       <Offcanvas className='responsive-nav' show={show} onHide={handleClose} placement='end' >
