@@ -37,17 +37,17 @@ const Header = (props) => {
         <Offcanvas.Body >
         <ul>
             <li>
-                <a>
+                <a href='#home'  onClick={handleClose}>
                     Home
                 </a>
             </li>
             <li>
-                <a>
+                <a href='#my-work' onClick={handleClose}>
                     My Work
                 </a>
             </li>
             <li>
-                <a>
+                <a href='#contact' onClick={handleClose}>
                     Contact
                 </a>
             </li>

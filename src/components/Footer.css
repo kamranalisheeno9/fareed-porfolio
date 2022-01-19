@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+
+.contact-text{
+
+    font-family: 'Philosopher', sans-serif !important;
+    padding-top: 60px !important;
+    padding-bottom: 10px !important;
+}
+.contact-text::before{
+    content: '';
+    border-radius: 10px;
+    position: relative;
+    top: 0;
+    display: block;
+    width: 400px;
+    height: 5px;
+    margin: 5px auto;
+    background: -webkit-linear-gradient( #6F788F,var(--background-2));
+
+}
+.contact-text::after{
+    border-radius: 10px;
+    content: '';
+    position: relative;
+    top: 0;
+    display: block;
+    width: 400px;
+    height: 5px;
+    margin: 5px auto;
+    background: -webkit-linear-gradient(var(--background-2), #6F788F);
+
+}
+.contact-container{
+    background-color: var(--background-2);
+    max-width: 80%;
+    margin: 60px auto;
+    box-shadow: 0px 2px 10px grey;
+
+}
+.contact-row{
+    text-align: center;
+    padding: 30px;
+
+}
+.contact-header{
+    font-family: var(--navbar-font);
+    text-transform: uppercase;
+    color: var(--color);
+    letter-spacing: 2px;
+}
+.contact-ul{
+    list-style: none;
+}
+.contact-ul li{
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 10px 0px;
+    background: -webkit-linear-gradient(var(--background-2), rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+.contact-ul li span{
+    float: left !important;
+    transform: rotate(0deg);
+    font-size: 22px;
+    transition: 0.3s all ease-in-out;
+
+}
+.fiverr-link{
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 10px 0px;
+    background: -webkit-linear-gradient(var(--background-2), rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+
+}
+.contact-ul li:hover{
+    letter-spacing: 6px;
+}
+.contact-ul li:hover span{
+    transform: rotate(-30deg);
+    color: #6E788F;
+
+
+}
+
+.social-links{
+    padding: 20px;
+    text-align: center;
+}
+.social-links-ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-bottom: 20px;
+}
+.social-links-ul li a{
+    margin: 0px 25px;
+    font-size: 25px;
+    position: relative;
+    top: 0;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+    border-radius: 100%;
+    color: black;    
+
+}
+.social-links-ul li a:first-child{
+    margin-left: 0px !important;
+}
+.social-links-ul li:hover a{
+    top: -20px;
+}
+.fiverr-icon{
+    font-size: 35px;
+    color: #19A463 !important;
+}
+.fiverr-link:hover{
+    letter-spacing: 6px;
+}
+@media screen and (max-width:546px) {
+    .contact-text{
+        font-size: 38px !important;
+    }
+    .contact-text::before {
+        width: 250px;
+    }
+    .contact-text::after {
+        width: 250px;
+    }
+    .contact-ul li{
+        font-size: 18px;
+        letter-spacing: 0px;
+    }
+    .contact-ul li:hover{
+        letter-spacing: 2px !important;
+    }
+    
+}

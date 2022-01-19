@@ -65,7 +65,15 @@
    
     
 }
-
+.modal{
+    background: #00000091 !important;
+}
+.modal-content{
+    background-color: transparent !important;
+}
+.modal-body{
+    padding: 0px !important;
+}
 @media screen and (max-width:970px){
     .card .img-box{
     left: 0px;
